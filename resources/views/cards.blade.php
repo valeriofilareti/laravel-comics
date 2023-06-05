@@ -4,7 +4,7 @@
 @extends('layout.main')
 
 @section('cards')
-<h1>CARDS</h1>
+
 <div class="container cards d-flex">
 
 

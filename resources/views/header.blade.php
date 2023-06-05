@@ -7,10 +7,10 @@
         <nav>
             <ul class="d-flex">
                 <li class="active" >
-                    <a href="#">link</a>
+                    <a href="{{Route('home')}}">home</a>
                 </li>
                 <li>
-                    <a href="#">link</a>
+                    <a href="{{Route('cards')}}">cards</a>
                 </li>
                 <li>
                     <a href="#">link</a>
