@@ -1,4 +1,6 @@
-
+@php
+    $menu_nav = config('menus')
+@endphp
 <header class="d-flex align-center">
     <div class="container d-flex align-center justify-between">
         <div class="logo d-flex align-center">
@@ -6,18 +8,11 @@
         </div>
         <nav>
             <ul class="d-flex">
+                @foreach ($menu_nav as $item)
                 <li class="active" >
-                    <a href="{{Route('home')}}">home</a>
+                    <a href="#">{{$item['name']}}</a>
                 </li>
-                <li>
-                    <a href="{{Route('cards')}}">cards</a>
-                </li>
-                <li>
-                    <a href="#">link</a>
-                </li>
-                <li>
-                    <a href="#">link</a>
-                </li>
+                @endforeach
             </ul>
         </nav>
         <input type="text">
