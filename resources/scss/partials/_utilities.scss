@@ -1,31 +1,25 @@
 
-.container {
-    width: 85%;
-    max-width: 1300px;
-    margin: 0 auto;
-  }
-
-  main {
+main {
     background-color: black;
     color: white;
 }
 
-  img {
-    width: 100%;
-  }
+img {
+width: 100%;
+}
 
-  .d-flex {
-    display: flex;
-  }
+.d-flex {
+display: flex;
+}
 
-  .justify-center {
-    justify-content: center;
-  }
+.justify-center {
+justify-content: center;
+}
 
-  .justify-between {
-    justify-content: space-between;
-  }
+.justify-between {
+justify-content: space-between;
+}
 
-  .align-center {
-    align-items: center;
-  }
+.align-center {
+align-items: center;
+}

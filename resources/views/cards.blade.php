@@ -1,40 +1,26 @@
+@php
+    $comics = config('comics')
+@endphp
 @extends('layout.main')
 
 @section('cards')
 <h1>CARDS</h1>
 <div class="container cards d-flex">
+
+
+    @foreach ($comics as $comic)
+
     <div class="myCard">
         <div class="image">
-            <img src="{{ Vite::asset('resources/img/jumbotron.jpg') }}">
+            <img src="{{ $comic['thumb'] }}">
         </div>
         <div class="text">
-            <h3>serie</h3>
+            <h3 class="txt">{{$comic['title']}}</h3>
         </div>
     </div>
-    <div class="myCard">
-        <div class="image">
-            <img src="{{ Vite::asset('resources/img/jumbotron.jpg') }}">
-        </div>
-        <div class="text">
-            <h3>serie</h3>
-        </div>
-    </div>
-    <div class="myCard">
-        <div class="image">
-            <img src="{{ Vite::asset('resources/img/jumbotron.jpg') }}">
-        </div>
-        <div class="text">
-            <h3>serie</h3>
-        </div>
-    </div>
-    <div class="myCard">
-        <div class="image">
-            <img src="{{ Vite::asset('resources/img/jumbotron.jpg') }}">
-        </div>
-        <div class="text">
-            <h3>serie</h3>
-        </div>
-    </div>
+
+    @endforeach
+
 </div>
 @endsection
 
