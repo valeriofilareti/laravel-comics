@@ -17,9 +17,10 @@
     @include('header')
     @include('jumbotron')
     <main>
-        <h1>main1</h1>
+
         <div class="container">
             @yield('home')
+            @yield('cards')
         </div>
     </main>
     @include('footer')
