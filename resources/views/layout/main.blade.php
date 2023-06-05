@@ -1,4 +1,6 @@
 @vite('resources/js/app.js')
+
+
 <body>
     @include('header')
     <main>
