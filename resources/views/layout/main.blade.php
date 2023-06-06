@@ -21,6 +21,7 @@
         <div class="container">
             @yield('home')
             @yield('cards')
+            @yield('details')
         </div>
     </main>
     @include('footer')

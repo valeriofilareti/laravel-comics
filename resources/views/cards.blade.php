@@ -1,6 +1,3 @@
-@php
-    $comics = config('comics')
-@endphp
 
 @extends('layout.main')
 
@@ -19,11 +16,14 @@
         @foreach ($comics as $comic)
 
         <div class="myCard mb-5">
+
             <div class="image">
-                <img src="{{ $comic['thumb'] }}">
+                <a href="{{ route('details', ['slug' => $comic['slug']]) }}">
+                    <img src="{{ $comic['thumb'] }}">
+                </a>
             </div>
             <div class="text">
-                <h3 class="txt">{{$comic['title']}}</h3>
+                <h3 class="txt">{{$comic['slug']}}</h3>
             </div>
         </div>
 
