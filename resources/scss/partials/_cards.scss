@@ -1,7 +1,4 @@
-main {
-    background-color: black;
 
-}
 h1 {
     color: white;
 }
@@ -9,16 +6,26 @@ h1 {
     width: 200px;
     padding: 10px;
     margin-top: 10px;
-.image{
-    width: 180px;
-    height: 180px;
-    overflow: hidden;
-}
-.txt {
-    text-transform: uppercase;
-    font-size: 12px;
-    margin-top: 10px;
-}
+    transition: 1s;
+    &:hover {
+        transform: scale(1.1);
+
+    }
+    .image{
+        width: 180px;
+        height: 180px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .txt {
+        text-transform: uppercase;
+        font-size: 12px;
+        margin-top: 10px;
+        cursor: pointer;
+        &:hover {
+            color: blue;
+        }
+    }
 }
 .cards {
     display: flex;

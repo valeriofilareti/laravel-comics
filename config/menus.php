@@ -2,43 +2,44 @@
 
 return [
     [
-        "name"=> 'characters',
-        "href"=> 'home'
+        "text"=> 'characters',
+        "name"=> 'home'
+
     ],
     [
-        "name"=> 'comics',
-        "href"=> 'cards'
+        "text"=> 'comics',
+        "name"=> 'cards'
     ],
     [
-        "name"=> 'movies',
-        "href"=> '#'
+        "text"=> 'movies',
+        "name"=> 'home'
     ],
     [
-        "name"=> 'tv',
-        "href"=> '#'
+        "text"=> 'tv',
+        "name"=> 'home'
     ],
     [
-        "name"=> 'games',
-        "href"=> '#'
+        "text"=> 'games',
+        "name"=> 'home'
     ],
     [
-        "name"=> 'collectibles',
-        "href"=> '#'
+        "text"=> 'collectibles',
+        "name"=> 'home'
     ],
     [
-        "name"=> 'videos',
-        "href"=> '#'
+        "text"=> 'videos',
+        "name"=> 'home'
     ],
     [
-        "name"=> 'fans',
-        "href"=> '#'
+        "text"=> 'fans',
+        "name"=> 'home'
     ],
     [
-        "name"=> 'news',
-        "href"=> '#'
+        "text"=> 'news',
+        "name"=> 'home'
     ],
     [
-        "name"=> 'shop',
-        "href"=> '#'
+        "text"=> 'shop',
+        "name"=> 'home'
     ]
 ];

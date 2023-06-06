@@ -9,8 +9,8 @@
         <nav>
             <ul class="d-flex">
                 @foreach ($menu_nav as $item)
-                <li class="active" >
-                    <a href="#">{{$item['name']}}</a>
+                <li >
+                    <a href="{{route($item['name'])}} ">{{$item['text']}}</a>
                 </li>
                 @endforeach
             </ul>
@@ -18,4 +18,7 @@
         <input type="text">
     </div>
 </header>
+
+
+{{-- {{route($item['href'])}}      ---------------------------- --}}
 
